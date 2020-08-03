@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <domain><![CDATA[http://wp2cart.com/expert]]></domain>
+  <options>
+    <item>
+      <post_title><![CDATA[About us]]></post_title>
+      <post_name><![CDATA[about-us]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<div class="page-about">
+<div class="cms-about-us about-us-banner"><a href="#"><img class="alignnone size-full wp-image-827" src="http://wp2cart.com/expert/wp-content/uploads/2018/01/about-banner.jpg" alt="" width="1171" height="400" /></a></div>
+</div>
+<div class="expert-section-title">
+<h3 class="title">Interesting Facts</h3>
+<p class="about-fact">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+
+</div>
+<div class="about-featured">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="featured-section">
+<h3 class="heading">10000</h3>
+<div class="sub-heading"><span>Items in Store</span></div>
+<p class="featured-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s...</p>
+
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="featured-section">
+<h3 class="heading">90%</h3>
+<div class="sub-heading"><span>Our Customers comeback</span></div>
+<p class="featured-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s...</p>
+
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="featured-section">
+<h3 class="heading">2 million</h3>
+<div class="sub-heading"><span>User of the site</span></div>
+<p class="featured-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s...</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="member-carousel owl-carousel">
+<div class="cms-static-company-worker company-worker">
+<h3 class="title">My teams</h3>
+<div class="row">
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="col-about-2 item">
+<div class="img"><a href="#"><img class="alignnone size-full wp-image-828" src="http://wp2cart.com/expert/wp-content/uploads/2018/01/member-1.jpg" alt="" width="269" height="301" />
+</a></div>
+<div class="info">
+<h3 class="name"><a href="#"><strong>lulu</strong><span>Director</span></a></h3>
+<p class="working">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="col-about-2 item">
+<div class="img"><a href="#"><img class="alignnone size-full wp-image-829" src="http://wp2cart.com/expert/wp-content/uploads/2018/01/member-2.jpg" alt="" width="270" height="301" />
+</a></div>
+<div class="info">
+<h3 class="name"><a href="#"><strong>lucia</strong><span>Manager</span></a></h3>
+<p class="working">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="col-about-2 item">
+<div class="img"><a href="#"><img class="alignnone size-full wp-image-830" src="http://wp2cart.com/expert/wp-content/uploads/2018/01/member-3.jpg" alt="" width="270" height="301" />
+</a></div>
+<div class="info">
+<h3 class="name"><a href="#"><strong>nana</strong><span>Marketer</span></a></h3>
+<p class="working">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="col-about-2 item">
+<div class="img"><a href="#"><img class="alignnone size-full wp-image-831" src="http://wp2cart.com/expert/wp-content/uploads/2018/01/member-4.jpg" alt="" width="270" height="301" />
+</a></div>
+<div class="info">
+<h3 class="name"><a href="#"><strong>braum</strong><span>Member</span></a></h3>
+<p class="working">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cms-static-detail-about detail-about">
+<div class="row">
+<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 left-detail-about">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+<h3 class="title">What we really do?</h3>
+<p class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+<h3 class="title">Our vision</h3>
+<p class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+<h3 class="title">History of the company</h3>
+<p class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+<h3 class="title">Cooperate with Us!</h3>
+<p class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 right-detail-about">
+<h3 class="title">What we can do for you</h3>
+<div class="box box-service"><input id="box1" checked="checked" name="toggle" type="radio" /><label for="box1"><span class="hidden">hidden</span></label>
+<div class="box-content">
+<h3 class="sub-title">support 24/7</h3>
+<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+</div>
+</div>
+<div class="box box-service"><input id="box2" name="toggle" type="radio" /><label for="box2"><span class="hidden">hidden</span></label>
+<div class="box-content">
+<h3 class="sub-title">Best quality</h3>
+<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+</div>
+</div>
+<div class="box box-service"><input id="box3" name="toggle" type="radio" />
+<label for="box3"><i class="hidden">hidden</i>
+</label>
+<div class="box-content">
+<h3 class="sub-title">Faster delivery</h3>
+<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+
+</div>
+</div>
+<div class="box box-service"><input id="box4" name="toggle" type="radio" /><label for="box4"><span class="hidden">hidden</span></label>
+<div class="box-content">
+<h3 class="sub-title">Customer care</h3>
+<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Bestseller]]></post_title>
+      <post_name><![CDATA[best_selling]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="best_selling" product_activated="best_selling" number="20" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" cart="1" compare="1" wishlist="1" review="1" ajax_load="1" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Blog]]></post_title>
+      <post_name><![CDATA[blog]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Cart]]></post_title>
+      <post_name><![CDATA[cart]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[[woocommerce_cart]]]></post_content>
+      <_wp_page_template><![CDATA[]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Checkout]]></post_title>
+      <post_name><![CDATA[checkout]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[[woocommerce_checkout]]]></post_content>
+      <_wp_page_template><![CDATA[]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Contact us]]></post_title>
+      <post_name><![CDATA[contact-us]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1526560428330{padding-bottom: 30px !important;}"][vc_column][vc_column_text]</p>
+<div class="google-map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991205076!2d-74.25987460306817!3d40.69767006407639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2s!4v1517821427665" width="100%" height="530" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row"][vc_column width="5/12"][vc_column_text]</p>
+<div class="contact-info">
+<h3 class="contact-title">contacts</h3>
+<ul class="store_info">
+<li>
+<div class="expert-sicon-default"><span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span></div>
+<div class="flex">
+<h3 class="tit-contain"><strong>Address:</strong>45 Grand Central Terminal New York,NY 1017<br />
+United State USA</h3>
+</div>
+</li>
+<li>
+<div class="expert-sicon-default"><span class="fa fa-phone icons"><span class="hidden">hidden</span></span></div>
+<div class="flex">
+<h3 class="tit-contain"><strong>Phone:</strong>(+123)456789-(+204)666888</h3>
+</div>
+</li>
+<li>
+<div class="expert-sicon-default"><span class="fa fa-envelope icons"><span class="hidden">hidden</span></span></div>
+<div class="flex">
+<h3 class="tit-contain"><strong>Email:</strong>Contact@yourcompany.com</h3>
+</div>
+</li>
+<li>
+<div class="expert-sicon-default"><span class="fa fa-clock-o icons"><span class="hidden">hidden</span></span></div>
+<div class="flex">
+<h3 class="tit-contain"><strong>Hours:</strong>Mon-Sat 9:00pm - 5:00pm Sun:Closed</h3>
+</div>
+</li>
+</ul>
+</div>
+<p>[/vc_column_text][/vc_column][vc_column width="7/12"][vc_column_text]</p>
+<div class="contact-form">
+<div class="form-title">Leave a message</div>
+<p>[contact-form-7 id="577" title="Contact form 1"]</div>
+<p>[/vc_column_text][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[.vc_custom_1526560428330{padding-bottom: 30px !important;}]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Home 3]]></post_title>
+      <post_name><![CDATA[home-3]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row css=".vc_custom_1524752989337{margin-right: -5px !important;margin-left: -5px !important;}"][vc_column width="3/4" css=".vc_custom_1524754806733{padding-right: 5px !important;padding-left: 5px !important;}" el_class="vc_slider"][magiccart_slider slider="groupslider688232" number="4" timer="1" slide="1" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="0" mobile="1" portrait="1" landscape="1" tablet="1" notebook="1" desktop="1" visible="1" el_class=""][/vc_column][vc_column width="1/4" css=".vc_custom_1527025333580{padding-right: 5px !important;padding-left: 5px !important;}" el_class="vc_banner-slider banner280"][vc_column_text css=".vc_custom_1530810135280{margin-bottom: 12px !important;}"]</p>
+<div class="addon-box">
+<div class="banner-ads banner-ads1">
+<div class="banner-boder-zoom"><a href="#"><img class="alignnone size-full wp-image-3025" src="http://wp2cart.com/expert/wp-content/uploads/2018/07/03a.jpg" alt="" width="280" height="180" /></a></div>
+<div class="caption-ads caption-ads1">
+<div class="caption1">Kids Lorraine</div>
+<div class="caption2">Sofa</div>
+<div class="caption3">Misty Blue</div>
+</div>
+</div>
+</div>
+<p>[/vc_column_text][vc_column_text]</p>
+<div class="addon-box">
+<div class="banner-ads banner-ads2">
+<div class="banner-boder-zoom"><a href="#"><img class="alignnone size-full wp-image-3026" src="http://wp2cart.com/expert/wp-content/uploads/2018/07/03b.jpg" alt="" width="279" height="259" /></a></div>
+<div class="caption-ads caption-ads2">
+<div class="caption1">Pillows</div>
+<div class="caption2">Under <strong>$25.00</strong></div>
+<div class="caption3"><a class="view-more" href="#">View more</a></div>
+</div>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row el_class="cms-page-countdown-product cms-static-product" css=".vc_custom_1532038217615{padding-top: 26px !important;}"][vc_column][magiccart_products product_collection="sale_product" categories="537,518,514,552,553,554,555" product_activated="best_selling" number="" timer="0" slide="1" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" ajax_load="1" cart="1" compare="1" wishlist="1" review="1" statistic="0" shortcode_left="0" shortcode_bottom="0" template="products_home3_sale.phtml"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]</p>
+<div class="main-message">
+<p>589,551buyers from more than 150 countries experience secure trading on expert.com</p>
+<div class="action"><a href="#">View now</a></div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row el_class="cms-static-product product-title product-magic product-pseudo" css=".vc_custom_1524815679713{padding-top: 26px !important;padding-bottom: 13px !important;}"][vc_column css=".vc_custom_1511435745938{padding-top: 0px !important;}"][magiccart_products product_collection="featured_product" categories="507,539,540,537,545,511,512,517,526,527,528,529,518,519,520,521,522,523,516,552,553,554,555" product_activated="featured_product" number="" timer="0" slide="1" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="2" tablet="2" notebook="3" desktop="4" visible="4" ajax_load="1" cart="1" compare="1" wishlist="1" review="1" statistic="0" shortcode_left="0" shortcode_bottom="0" template="products.phtml"][/vc_column][/vc_row][vc_row el_class="banner1170"][vc_column][vc_column_text]</p>
+<div class="addon-box">
+<div class="banner-ads banner-ads3">
+<div class="banner-boder-zoom"><a href="#"><img class="alignnone size-full wp-image-3027" src="http://wp2cart.com/expert/wp-content/uploads/2018/07/03c.jpg" alt="" width="1170" height="350" /></a></div>
+<div class="caption-ads caption-ads3">
+<div class="caption1">Best Chair</div>
+<div class="caption2">Work Better<br />
+Together</div>
+<div class="caption3">Design for nonprofit CEOs and Board Chairs<br />
+Looking to buil on each other's strengths</div>
+<div class="caption4"><a class="shop-now" href="#">Shop now</a></div>
+</div>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row el_class="cms-static-product product-magic cate-magic cate-new product-horizontal" css=".vc_custom_1526095847100{padding-bottom: 16px !important;}"][vc_column css=".vc_custom_1524593734354{padding-top: 20px !important;}"][magiccart_categories categories="532,552,553,554,555" category_activated="Arm Chairs" product_activated="recent_product" number="6" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="2" desktop="3" visible="3" ajax_load="yes" cart="yes" compare="yes" wishlist="yes" review="yes" statistic="0" shortcode_left="0" shortcode_bottom="0" template="categories_horizontal.phtml" title="New products"][/vc_column][/vc_row][vc_row][vc_column width="1/2" el_class="banner570"][vc_column_text]</p>
+<div class="addon-box">
+<div class="banner-ads banner-ads4">
+<div class="banner-boder-zoom"><a href="#"><img class="alignnone size-full wp-image-3028" src="http://wp2cart.com/expert/wp-content/uploads/2018/07/03d.jpg" alt="" width="570" height="200" /></a></div>
+<div class="caption-ads caption-ads4">
+<div class="caption1">Luxury<strong>Pillow</strong></div>
+<div class="caption2">Design for a good nights</div>
+<div class="caption3">Starting at: <strong>$25.00</strong></div>
+<div class="caption4"><a class="shop-now" href="#">Shop now</a></div>
+</div>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][vc_column width="1/2" el_class="banner570"][vc_column_text]</p>
+<div class="addon-box">
+<div class="banner-ads banner-ads5">
+<div class="banner-boder-zoom"><a href="#"><img class="alignnone size-full wp-image-3029" src="http://wp2cart.com/expert/wp-content/uploads/2018/07/03e.jpg" alt="" width="570" height="200" /></a></div>
+<div class="caption-ads caption-ads5">
+<div class="caption1">New</div>
+<div class="caption2">Urban - Industrial</div>
+<div class="caption3">Restaurant Seating</div>
+<div class="caption4">Cooper &amp; Elliot</div>
+</div>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row el_class="cms-static-product product-magic cate-magic cate-sale product-vertical" css=".vc_custom_1527022676268{padding-bottom: 13px !important;}"][vc_column css=".vc_custom_1524891263495{padding-top: 20px !important;}"][magiccart_categories categories="532,552,553,554,555" category_activated="Arm Chairs" product_activated="on_sale" number="" timer="0" slide="1" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="2" tablet="2" notebook="3" desktop="4" visible="4" ajax_load="yes" cart="yes" compare="yes" wishlist="yes" review="yes" statistic="0" shortcode_left="0" shortcode_bottom="0" template="categories.phtml" title="On sale products"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[.vc_custom_1524752989337{margin-right: -5px !important;margin-left: -5px !important;}.vc_custom_1532038217615{padding-top: 26px !important;}.vc_custom_1524815679713{padding-top: 26px !important;padding-bottom: 13px !important;}.vc_custom_1526095847100{padding-bottom: 16px !important;}.vc_custom_1527022676268{padding-bottom: 13px !important;}.vc_custom_1524754806733{padding-right: 5px !important;padding-left: 5px !important;}.vc_custom_1527025333580{padding-right: 5px !important;padding-left: 5px !important;}.vc_custom_1530810135280{margin-bottom: 12px !important;}.vc_custom_1511435745938{padding-top: 0px !important;}.vc_custom_1524593734354{padding-top: 20px !important;}.vc_custom_1524891263495{padding-top: 20px !important;}]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[My account]]></post_title>
+      <post_name><![CDATA[my-account]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[[woocommerce_my_account]]]></post_content>
+      <_wp_page_template><![CDATA[]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[New product]]></post_title>
+      <post_name><![CDATA[new_product]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="new_product" categories="" product_activated="best_selling" number="12" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" ajax_load="1" cart="1" compare="1" wishlist="1" review="1" statistic="0" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[On sale]]></post_title>
+      <post_name><![CDATA[on_sale]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="on_sale" product_activated="on_sale" number="20" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" cart="yes" compare="yes" wishlist="yes" review="yes" ajax_load="yes" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Random product]]></post_title>
+      <post_name><![CDATA[random_product]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="random_product" categories="" product_activated="best_selling" number="12" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" ajax_load="1" cart="1" compare="1" wishlist="1" review="1" statistic="0" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Recent products]]></post_title>
+      <post_name><![CDATA[recent_product]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="recent_product" product_activated="recent_product" number="20" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" cart="yes" compare="yes" wishlist="yes" review="yes" ajax_load="yes" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Sale product]]></post_title>
+      <post_name><![CDATA[sale_product]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="sale_product" categories="" product_activated="best_selling" number="12" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" ajax_load="1" cart="1" compare="1" wishlist="1" review="1" statistic="0" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Shop]]></post_title>
+      <post_name><![CDATA[shop]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[]]></post_content>
+      <_wp_page_template><![CDATA[]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Top rate]]></post_title>
+      <post_name><![CDATA[top_rate]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[<p>[vc_row][vc_column][magiccart_products product_collection="top_rate" product_activated="top_rate" number="20" timer="0" slide="0" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="1" tablet="2" notebook="3" desktop="4" visible="4" cart="yes" compare="yes" wishlist="yes" review="yes" ajax_load="yes" shortcode_left="0" shortcode_bottom="0" template="products_list.phtml"][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[default]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Wishlist]]></post_title>
+      <post_name><![CDATA[wishlist]]></post_name>
+      <post_type><![CDATA[page]]></post_type>
+      <post_content><![CDATA[[yith_wcwl_wishlist]]]></post_content>
+      <_wp_page_template><![CDATA[]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+    <item>
+      <post_title><![CDATA[Footer3]]></post_title>
+      <post_name><![CDATA[footer3]]></post_name>
+      <post_type><![CDATA[footer]]></post_type>
+      <post_content><![CDATA[<p>[vc_row full_width="stretch_row" css=".vc_custom_1533082273862{padding-top: 52px !important;padding-bottom: 52px !important;background-color: #fafafa !important;}" el_class="vc_shopbrand"][vc_column][magiccart_brands number="" timer="0" slide="1" vertical="false" infinite="true" autoplay="true" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="2" landscape="3" tablet="3" notebook="3" desktop="4" visible="5"][/vc_column][/vc_row][vc_row el_class="cms-static-product cms-rate-product product-magic" css=".vc_custom_1524895629392{background-color: #ffffff !important;}"][vc_column][magiccart_products product_collection="top_rate" categories="548,531,539,532,533,534,537,518,516,552,553,554,555" product_activated="top_rate" number="" timer="0" slide="1" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" rows="1" speed="300" autoplay-speed="3000" padding="15" mobile="1" portrait="1" landscape="2" tablet="3" notebook="3" desktop="4" visible="4" ajax_load="1" cart="1" compare="1" wishlist="1" review="1" statistic="0" shortcode_left="0" shortcode_bottom="0" template="products.phtml"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1525166809146{padding-top: 48px !important;padding-bottom: 28px !important;background-color: #fafafa !important;}"][vc_column width="1/4" el_class="alo-col-sm-6"][vc_column_text]</p>
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">contact details</h3>
+<div class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></div>
+<div class="block-content block-content-statick toggle-content">
+<ul class="address">
+<li class="number-address"><span class="contact-name fa fa-map-marker"><span class="hidden">hidden</span></span><span class="street contact-list">45 Grand Central Terminal New<br />
+York,NY 1017 United State USA</span></li>
+<li class="contact"><span class="contact-name fa fa-phone"><span class="hidden">hidden</span></span><span class="contact-list">(+123) 456 789 - (+204) 666 888</span></li>
+<li class="contact"><span class="contact-name fa fa-envelope-o"><span class="hidden">hidden</span></span><span class="contact-list">contact@yourcompany.com</span></li>
+<li class="contact"><span class="contact-name fa fa-clock-o"><span class="hidden">hidden</span></span><span class="contact-list">Mon-Sat 9:00pm - 5:00pm Sun:Closed</span></li>
+</ul>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][vc_column width="1/6" el_class="alo-col-sm-3"][vc_column_text]</p>
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Customer</h3>
+<div class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></div>
+<div class="block-content block-content-statick toggle-content">
+<ul class="bullet">
+<li><a href="#">Shipping &amp; Returns</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">International Shipping</a></li>
+<li><a href="#">Affiliates</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][vc_column width="1/6" el_class="alo-col-sm-3"][vc_column_text]</p>
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">infomation</h3>
+<div class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></div>
+<div class="block-content block-content-statick toggle-content">
+<ul class="bullet">
+<li><a href="#">Our Blog</a></li>
+<li><a href="#">About Our Shop</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">Delivery infomation</a></li>
+<li><a href="#">Store Locations</a></li>
+</ul>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][vc_column width="1/6" el_class="alo-col-sm-3 about-us-info"][vc_column_text]</p>
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">about us</h3>
+<div class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></div>
+<div class="block-content block-content-statick toggle-content">
+<ul class="bullet">
+<li><a href="#">Sitmap</a></li>
+<li><a href="#">About Our Shop</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">Delivery infomation</a></li>
+<li><a href="#">Store Locations</a></li>
+</ul>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][vc_column width="1/4" el_class="alo-col-sm-9 hotline-contact"][vc_column_text]</p>
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Hotline</h3>
+<div class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></div>
+<div class="block-content block-content-statick toggle-content">
+<p class="call-free">Call Us toll Free</p>
+<div class="call-number">(080)123 4567 891</div>
+<div class="action-call"><a href="#">Call Us Now</a></div>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1525143458045{background-color: #fafafa !important;}"][vc_column css=".vc_custom_1525142082856{border-top-width: 1px !important;border-top-color: #e4e4e4 !important;border-top-style: solid !important;}"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1525142640470{padding-top: 30px !important;padding-bottom: 30px !important;background-color: #fafafa !important;}"][vc_column width="7/12" el_class="vc_newsletter"][magiccart_newsletter template="newsletter_home2.phtml" el_class=""][/vc_column][vc_column width="5/12" el_class="vc_social"][vc_column_text]</p>
+<div class="footer-social">
+<div class="title-social">
+<h4 class="title">Follow us</h4>
+</div>
+<div class="footer-icon-share clearfix">
+<p class="follow-buttons"><a class="social-link social-twitter" href="#"><i class="fa fa-twitter icon-share"><em class="hidden">hidden</em></i></a></p>
+<p class="follow-buttons"><a class="social-link social-facebook" href="#"><i class="fa fa-facebook icon-share"><em class="hidden">hidden</em></i></a></p>
+<p class="follow-buttons"><a class="social-link social-pinterest" href="#"><i class="fa fa-pinterest icon-share"><em class="hidden">hidden</em></i></a></p>
+<p class="follow-buttons"><a class="social-link social-youtube" href="#"><i class="fa fa-youtube icon-share"><em class="hidden">hidden</em></i></a></p>
+<p class="follow-buttons"><a class="social-link social-instagram" href="#"><i class="fa fa-instagram icon-share"><em class="hidden">hidden</em></i></a></p>
+</div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1525161624066{padding-top: 30px !important;padding-bottom: 30px !important;background-color: #f0f0f0 !important;}"][vc_column width="1/3" el_class="vc_copyright"][magiccart_copyright el_class=""][/vc_column][vc_column width="2/3" el_class="vc_paypal"][vc_column_text]</p>
+<div class="footer-paypal">
+<div class="paypal"><a href="#"><img class="alignnone size-full wp-image-1835" src="http://wp2cart.com/expert/wp-content/uploads/2017/10/payment-1.png" alt="" width="51" height="36" /><img class="alignnone size-full wp-image-1836" src="http://wp2cart.com/expert/wp-content/uploads/2017/10/payment-2.png" alt="" width="51" height="36" /><img class="alignnone size-full wp-image-1837" src="http://wp2cart.com/expert/wp-content/uploads/2017/10/payment-3.png" alt="" width="52" height="36" /><img class="alignnone size-full wp-image-1838" src="http://wp2cart.com/expert/wp-content/uploads/2017/10/payment-4.png" alt="" width="51" height="36" /><img class="alignnone size-full wp-image-1839" src="http://wp2cart.com/expert/wp-content/uploads/2017/10/payment-5.png" alt="" width="52" height="36" /></a></div>
+</div>
+<p>[/vc_column_text][/vc_column][/vc_row]</p>
+]]></post_content>
+      <_wp_page_template><![CDATA[]]></_wp_page_template>
+      <_wpb_shortcodes_custom_css><![CDATA[.vc_custom_1533082273862{padding-top: 52px !important;padding-bottom: 52px !important;background-color: #fafafa !important;}.vc_custom_1524895629392{background-color: #ffffff !important;}.vc_custom_1525166809146{padding-top: 48px !important;padding-bottom: 28px !important;background-color: #fafafa !important;}.vc_custom_1525143458045{background-color: #fafafa !important;}.vc_custom_1525142640470{padding-top: 30px !important;padding-bottom: 30px !important;background-color: #fafafa !important;}.vc_custom_1525161624066{padding-top: 30px !important;padding-bottom: 30px !important;background-color: #f0f0f0 !important;}.vc_custom_1525142082856{border-top-width: 1px !important;border-top-color: #e4e4e4 !important;border-top-style: solid !important;}]]></_wpb_shortcodes_custom_css>
+      <header_skin><![CDATA[]]></header_skin>
+      <footer_skin><![CDATA[.footer-top {padding-top:48px;padding-bottom:48px;}
+.newsletter span.title {
+  display:inline-block;
+  float:left;
+  line-height:55px;
+  font-size:16px;
+  font-weight:normal;
+  color:#1f1f1f;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+  
+}
+.newsletter .block-title {display:inline-block;vertical-align:middle;margin-right:16px;display:none;}
+.newsletter .form-subscribe {vertical-align:middle;position:relative;border:1px solid #e6e6e6; border-radius: 0 3px 3px 0;}
+
+ .newsletter .tnp-widget-minimal input.tnp-email {width: 100%;height: 43px;padding: 0 16px;font-size: 14px;box-shadow:none;border-radius:3px 3px 3px 3px;padding-right:115px;border-color:#fff;}
+ .newsletter .subscribe-actions {/*float:left;*/}
+ .newsletter button {
+  height:45px;
+  padding: 0 20px;
+  background:#f2c557;
+  color:#222;
+  font-weight:600;
+  font-size: 14px;
+  border-radius:0 3px 3px 0;
+  text-transform:capitalize;
+  border:1px solid #be952c;
+  position:absolute;
+  right:0;
+  top:-1px;
+  background: -webkit-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: -moz-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: -o-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: -ms-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: linear-gradient(0deg, #f0c049 0%, #fbdd99 100%);
+}
+.newsletter button:hover {background: -webkit-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: -moz-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: -o-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: -ms-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: linear-gradient(0deg, #fbdd99 0%, #f0c049 100%);}
+.block-newsletter p {font-size:18px;color:#ffffff;font-weight:200;margin-bottom:29px;opacity:0.9;}
+.block-newsletter p strong {font-weight:600;}
+
+/* social */
+
+.footer-icon-share .follow-buttons{float:left;margin-right:20px;margin-bottom:0;}
+.footer-icon-share .follow-buttons:last-child {margin-right:0;}
+ .footer-icon-share .social-link {
+  width:43px;
+  height:43px;
+  line-height:48px;
+  text-align:center;
+  border-radius:50%;
+  color:#666666;
+  font-size:18px;
+  display:block;
+  border-width:1px;
+  border-style:solid;
+  border-color:#e6e6e6;
+}
+.footer-icon-share .social-link:hover {background-color:#f2c557;color:#333;border-color:#f2c557;} 
+ .address li span.street {
+    
+    display: block;
+    padding-top: 2px;
+    line-height:18px;
+}
+ .block-content .address {margin-top: 3px;}
+ .address .number-address {margin-bottom:16px;}
+ .address .contact {padding-top: 13px;}
+ .address li span {font-size: 14px;font-weight: normal;color: #999999;line-height: 26px;}
+ 
+ .address li span.contact-name {padding-right: 7px;float:left;font-size:18px;}
+ .address li span.contact-list {display:flex;}
+ .address li p {margin-bottom: 0;}
+ .block-content.block-content-statick .street {
+ /* font-style:italic;*/
+}
+ .block-content.block-content-statick .bullet li a {
+
+  font-size:14px;
+  font-weight:normal;
+  color:#999999;
+  line-height: 30px;
+  display: block;
+  padding: 3px 0;
+  outline: none;
+}
+ .block-content.block-content-statick .bullet li a:hover {color: #fff;text-decoration: underline;}
+ .collapsible.mobile-collapsible>.block-title {
+  
+  font-weight:bold;
+  font-size:18px;
+  color:#ffffff;
+  text-transform:uppercase;
+  margin-top:0;
+  margin-bottom:0;
+  padding:0 0 30px 0;
+}
+.collapsible.mobile-collapsible>.block-title.title-sub {font-weight:bold;font-size:20px;padding-bottom:11px;}
+.footer-social {text-align:right;}
+.footer-social .title {font-weight:bold;font-size:18px;color:#222;text-transform:uppercase;margin-top:0;}
+.footer-social .title-social {display:inline-block;vertical-align:middle;margin-right:15px;}
+.feature-brand .title {color:#000;margin-bottom:0;}
+.download .download-brand {float:left;margin-bottom:0;}
+.download .download-brand:first-child {margin-right:35px;}
+.footer-menu-box .footer-menu-list {text-align:center;margin-bottom:19px;}
+.footer-menu-box .footer-menu-list li,.footer-menu-bottom li {display:inline-block;}
+
+.footer-menu-box .footer-menu-list li a,.footer-menu-bottom li a {color:#aaa;font-size:14px;font-weight:normal;padding:0 6px;border-right:1px solid #808080;margin:3px 0;display:inline-block;line-height:1;}
+.footer-menu-bottom li a {padding:0 8px;}
+.footer-menu-box .footer-menu-list li:last-child a {border:0;}
+/*.footer-menu-bottom,.footer-copyright {text-align:center;}*/
+/* copyright */
+
+ .copy-right address {margin-bottom: 0;line-height: 36px;color:#555;font-size:14px;font-weight:normal;
+}
+ .copy-right address .active {color:#222;font-weight:600;font-size:15px;}
+ .copy-right address .active:hover {color: #FF9900;text-decoration: underline;}
+.footer-social .footer-icon-share {display:inline-block;vertical-align:middle;}
+.vc_copyright {width:40%;}
+.vc_paypal {width:60%;}
+/*.paypal {margin-left:12px;}*/
+ .paypal img {margin-right:20px;}
+ .paypal img:last-child {margin-right:0;}
+ .block-content-statick ul,.footer-menu-list,.footer-menu-bottom {padding:0;list-style:none;}
+.call-free {font-size:14px;color:#555;margin-bottom:6px;padding-top:6px;}
+.call-number {font-size:30px;font-weight:bold;color:#333;margin-bottom:18px;line-height:1;}
+.footer-menu-box .footer-menu-list li a:first-child {padding-left:0;}
+.action-call a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    display: inline-block;
+    height: 37px;
+    line-height: 35px;
+    padding: 0 31px;
+    background-color: #fada8f;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #be952c;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: -moz-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: -o-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: -ms-linear-gradient(90deg, #f0c049 0%, #fbdd99 100%);
+    background: linear-gradient(0deg, #f0c049 0%, #fbdd99 100%);
+}
+.action-call a:hover {
+    background: -webkit-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: -moz-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: -o-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: -ms-linear-gradient(90deg, #fbdd99 0%, #f0c049 100%);
+background: linear-gradient(0deg, #fbdd99 0%, #f0c049 100%);
+}
+.box-brand {padding-left:18px;padding-right:20px;}
+.box-brand .feature-brand {margin-bottom:29px;display:none;}
+/*.box-newsletter {padding-top:39px;padding-bottom:38px;}*/
+.box-newsletter .sub-newsletter,.box-newsletter .block-newsletter {float:left;}
+.box-newsletter .sub-newsletter {width:43.5%;}
+.box-newsletter .block-newsletter {width:56.5%;padding-left:25px;}
+.box-newsletter .title-sub,.box-newsletter .sub-newsletter p {font-size:19px;font-weight:bold;color:#222;}
+.box-newsletter .sub-newsletter p {font-size:18px;font-weight:normal;color:#555;margin-bottom:0;}
+.box-newsletter .title-sub {margin-top:0;text-transform:uppercase;margin-bottom:0;}
+
+.box-newsletter .sub-newsletter p strong {font-weight:600;}
+.cms-rate-product .magicproduct {padding:27px 0 20px;}
+.vc_newsletter {width:60%;}
+.vc_social {width:40%;}
+.footer-menu-box .footer-menu-list li a:hover {color:#fff;text-decoration: underline;}
+
+
+
+
+
+]]></footer_skin>
+      <el_class><![CDATA[]]></el_class>
+    </item>
+  </options>
+</root>

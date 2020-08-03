@@ -1,0 +1,41 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2017-08-13 18:45:34
+ * @@Modify Date: 2018-03-13 21:01:40
+ * @@Function:
+ */
+
+$classer = $this->getData('el_class');
+?>
+<div class="collapsible mobile-collapsible">
+    <h3 class="block-title title-sub"><?php echo __('Subscribe our Newsletter', 'aloexpert'); ?></h3>
+    <div class="toggle-tab mobile" style="display:none"><span class="hidden">hidden</span></div>
+    <div class="block-content block-content-statick toggle-content">
+        <div class="block-newsletter">
+            <p>Get <strong>25% Off</strong> first purchase!</p>
+            <div class="newsletter">
+                <div class="tnp tnp-widget-minimal <?php echo esc_attr($classer) ?>">
+                    <form action="<?php echo esc_attr(home_url('/')) . '?na=s';  ?>" method="post" id="newsletter-validate-detail">
+                            <div class="block-title"><span class="title"><?php echo __('Newsletter', 'aloexpert'); ?>:</span></div>
+                            <div class="form-subscribe clearfix">
+                                <div class="input-box">
+                                    <input type="hidden" name="nr" value="widget-minimal"/>
+                                    <input type="email" required name="ne" id="newsletter" value="" title="<?php echo esc_attr__('Sign up for our newsletter', 'aloexpert'); ?>" placeholder="<?php echo esc_attr__('Your email', 'aloexpert'); ?>" class="tnp-email">
+                                </div>
+                                <div class="subscribe-actions">
+                                    <button type="submit" title="<?php echo esc_attr__('Subscribe', 'aloexpert'); ?>" class="tnp-submit"><?php echo __('Subscribe', 'aloexpert'); ?></button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,29 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2018-06-21 17:34:24
+ * @@Modify Date: 2018-06-21 17:53:31
+ * @@Function:
+ */
+?>
+
+<div class="content-wishlist">
+	<a href="<?php echo esc_url( site_url('wishlist') ) ?>" class="btn-heart" title="<?php echo esc_attr__('Wishlist', 'aloexpert')?>">
+		<span class="fa fa-heart icons"><span class="hidden">hidden</span></span>
+		<div class="text-wishlist-area">
+			
+				<span class="text-account text-bold block"><?php echo __('Wishlist', 'aloexpert')?></span>
+				<?php 
+					$wishlist_count = 0;
+					if(defined( 'YITH_WCWL' )) $wishlist_count = YITH_WCWL()->count_products(); 
+				?>
+				<span class="text-account number-wishlist"><?php echo $wishlist_count; ?></span>
+				<span class="text-account text-normal"><?php echo __('item(s)', 'aloexpert')?></span>
+			<?php  //echo do_shortcode('[yith_wcwl_add_to_wishlist wishlist_url]'); ?>
+		</div>
+	</a>
+</div>

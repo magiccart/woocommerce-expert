@@ -1,0 +1,903 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: aloexpert/header/header1.php:175
+#: aloexpert/header/header2.php:162
+#: aloexpert/header/header3.php:163
+#: aloexpert/header/header4.php:176
+#: aloexpert/header/header5.php:176
+#: aloexpert/header/header6.php:156
+#: aloexpert/header/header7.php:153
+#: aloexpert/header/header8.php:175
+msgid "$99"
+msgstr ""
+
+#. Text in function
+#: aloexpert/comments.php:87
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:51
+#: aloexpert/header/header3.php:51
+#: aloexpert/header/header6.php:81
+#: aloexpert/header/header7.php:40
+#: aloexpert/header/header8.php:51
+msgid "(080)123 4567 891"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "-- Not found theme --"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "-- Select Theme --"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/404.php:43
+msgid "<h2>OOPS! THAT PAGE CAN'T BE FOUND. </h2>"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/404.php:43
+msgid "<p>It looks like nothing was found at this location. Maybe try a search?</p>"
+msgstr ""
+
+#. Text in function
+#: aloexpert/templates/testimonial.php:72
+msgid "<strong class=\"rating\">%s</strong> out of 5"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:76
+#: aloexpert/header/header3.php:76
+#: aloexpert/header/header4.php:89
+#: aloexpert/header/header5.php:89
+#: aloexpert/header/header6.php:62
+#: aloexpert/header/header7.php:65
+#: aloexpert/header/header8.php:76
+msgid "About"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:107
+#: aloexpert/header/header2.php:102
+#: aloexpert/header/header3.php:103
+#: aloexpert/header/header4.php:116
+#: aloexpert/header/header5.php:116
+#: aloexpert/header/header6.php:96
+#: aloexpert/header/header7.php:93
+#: aloexpert/header/header8.php:107
+msgid "Account"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:35
+msgid "Average rating"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-single.php:37
+#: aloexpert/content.php:52
+msgid "By:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio.php:54
+msgid "By: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header6.php:80
+msgid "Call Us toll Free"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:67
+#: aloexpert/header/header2.php:76
+#: aloexpert/header/header3.php:67
+#: aloexpert/header/header4.php:83
+#: aloexpert/header/header5.php:83
+#: aloexpert/header/header6.php:52
+#: aloexpert/header/header7.php:56
+#: aloexpert/header/header8.php:67
+msgid "Canada"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:175
+#: aloexpert/header/header2.php:162
+#: aloexpert/header/header3.php:163
+#: aloexpert/header/header4.php:176
+#: aloexpert/header/header5.php:176
+#: aloexpert/header/header6.php:156
+#: aloexpert/header/header7.php:153
+#: aloexpert/header/header8.php:175
+msgid "Capped Delivery"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:165
+#: aloexpert/header/header2.php:152
+#: aloexpert/header/header3.php:153
+#: aloexpert/header/header4.php:166
+#: aloexpert/header/header5.php:166
+#: aloexpert/header/header6.php:146
+#: aloexpert/header/header7.php:143
+#: aloexpert/header/header8.php:165
+msgid "Cart"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio.php:50
+msgid "Categories: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:43
+msgid "Category:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:74
+#: aloexpert/header/header3.php:74
+#: aloexpert/header/header4.php:87
+#: aloexpert/header/header5.php:87
+#: aloexpert/header/header6.php:60
+#: aloexpert/header/header7.php:63
+#: aloexpert/header/header8.php:74
+msgid "Checkout"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/cart/cart.php:156
+msgid "Clear Shopping Cart"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/inc/magiccart-functions.php:255
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-single.php:52
+#: aloexpert/content.php:67
+msgid "Comment(s) "
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio.php:58
+msgid "Comment(s): "
+msgstr ""
+
+#. Text in echo
+#: aloexpert/comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:127
+msgid "Company"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:123
+msgid "Contact Name"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/cart/cart.php:149
+msgid "Continue Shopping"
+msgstr ""
+
+#. Text in function
+#: aloexpert/footer.php:57
+msgid "Copyright &euro 2018"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:43
+msgid "Copyright:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:67
+msgid "Date:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio.php:45
+#: aloexpert/content-testimonial.php:95
+#: aloexpert/templates/testimonial.php:62
+msgid "Date: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:35
+msgid "Default Sorting"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:48
+#: aloexpert/header/header3.php:48
+#: aloexpert/header/header6.php:37
+#: aloexpert/header/header7.php:37
+#: aloexpert/header/header8.php:48
+msgid "Default welcome msg!"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:54
+#: aloexpert/header/header2.php:63
+#: aloexpert/header/header3.php:54
+#: aloexpert/header/header4.php:70
+#: aloexpert/header/header5.php:70
+#: aloexpert/header/header6.php:39
+#: aloexpert/header/header7.php:43
+#: aloexpert/header/header8.php:54
+msgid "Dollar (US)"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:58
+#: aloexpert/header/header2.php:67
+#: aloexpert/header/header3.php:58
+#: aloexpert/header/header4.php:74
+#: aloexpert/header/header5.php:74
+#: aloexpert/header/header6.php:43
+#: aloexpert/header/header7.php:47
+#: aloexpert/header/header8.php:58
+msgid "Dollar (USD)"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:89
+msgid "Dont show this popup again"
+msgstr ""
+
+#. Text in function
+#: aloexpert/comments.php:76
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:131
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:36
+msgid "Enter your email below and
+			get your voucher"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:57
+#: aloexpert/header/header2.php:66
+#: aloexpert/header/header3.php:57
+#: aloexpert/header/header4.php:73
+#: aloexpert/header/header5.php:73
+#: aloexpert/header/header6.php:42
+#: aloexpert/header/header7.php:46
+#: aloexpert/header/header8.php:57
+msgid "Euro (EUR)"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "Export"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "Export data successfully to path: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "File not exist:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:176
+#: aloexpert/header/header2.php:163
+#: aloexpert/header/header3.php:164
+#: aloexpert/header/header4.php:177
+#: aloexpert/header/header5.php:177
+#: aloexpert/header/header6.php:157
+#: aloexpert/header/header7.php:154
+#: aloexpert/header/header8.php:176
+msgid "Fill your cart & pay no more than $99 dellivery"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header6.php:84
+msgid "Free Delivery"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:66
+#: aloexpert/header/header2.php:75
+#: aloexpert/header/header3.php:66
+#: aloexpert/header/header4.php:82
+#: aloexpert/header/header5.php:82
+#: aloexpert/header/header6.php:51
+#: aloexpert/header/header7.php:55
+#: aloexpert/header/header8.php:66
+msgid "French"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:65
+#: aloexpert/header/header2.php:74
+#: aloexpert/header/header3.php:65
+#: aloexpert/header/header4.php:81
+#: aloexpert/header/header5.php:81
+#: aloexpert/header/header6.php:50
+#: aloexpert/header/header7.php:54
+#: aloexpert/header/header8.php:65
+msgid "German"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:49
+msgid "Get my discount now"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:71
+#: aloexpert/woocommerce/loop/orderby.php:72
+msgid "Grid"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:109
+#: aloexpert/header/header8.php:109
+msgid "Hello!"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:111
+#: aloexpert/header/header2.php:103
+#: aloexpert/header/header3.php:104
+#: aloexpert/header/header4.php:117
+#: aloexpert/header/header5.php:117
+#: aloexpert/header/header6.php:97
+#: aloexpert/header/header7.php:94
+#: aloexpert/header/header8.php:111
+msgid "Hello! Sign in"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:64
+#: aloexpert/header/header2.php:73
+#: aloexpert/header/header3.php:64
+#: aloexpert/header/header4.php:80
+#: aloexpert/header/header5.php:80
+#: aloexpert/header/header6.php:49
+#: aloexpert/header/header7.php:53
+#: aloexpert/header/header8.php:64
+msgid "Hungary"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:139
+msgid "Image"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "Import"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/Alothemes/Import/Controller/Adminhtml/Import.php:1
+msgid "Import data successfully from path: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-single.php:47
+#: aloexpert/content.php:62
+msgid "In:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:62
+#: aloexpert/header/header2.php:71
+#: aloexpert/header/header3.php:62
+#: aloexpert/header/header4.php:78
+#: aloexpert/header/header5.php:78
+#: aloexpert/header/header6.php:47
+#: aloexpert/header/header7.php:51
+#: aloexpert/header/header8.php:62
+msgid "Language: English"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Left Sidebar Details"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Left Sidebar Portfolio"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Left Sidebar Post"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Left Sidebar Shop"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/post-like.php:1
+msgid "Like"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:73
+#: aloexpert/woocommerce/loop/orderby.php:74
+msgid "List"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:119
+#: aloexpert/header/header8.php:119
+msgid "Log Out"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:123
+#: aloexpert/header/header2.php:111
+#: aloexpert/header/header3.php:112
+#: aloexpert/header/header4.php:125
+#: aloexpert/header/header5.php:125
+#: aloexpert/header/header6.php:105
+#: aloexpert/header/header7.php:102
+#: aloexpert/header/header8.php:123
+msgid "New customer! Start here."
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:257
+msgid "Newer Comments"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:281
+msgid "Newest Posts"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:35
+msgid "Newness"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:41
+msgid "Newsletter"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter.php:19
+msgid "Newsletter: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/post-like.php:1
+msgid "Not permitted"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:257
+msgid "Older Comments"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:278
+msgid "Older Posts"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header6.php:85
+msgid "On Orders Over $99"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:57
+msgid "Or connect with"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:73
+#: aloexpert/header/header3.php:73
+#: aloexpert/header/header6.php:59
+#: aloexpert/header/header7.php:62
+#: aloexpert/header/header8.php:73
+msgid "Order Tracking"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header2.php:80
+msgid "Order tracking"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-single.php:70
+#: aloexpert/content.php:72
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:18
+msgid "Please enter full data!"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:35
+msgid "Popularity"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/comments.php:22
+msgid "Post Comments"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Posts Tagged "
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Posts made in "
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:56
+#: aloexpert/header/header2.php:65
+#: aloexpert/header/header3.php:56
+#: aloexpert/header/header4.php:72
+#: aloexpert/header/header5.php:72
+#: aloexpert/header/header6.php:41
+#: aloexpert/header/header7.php:45
+#: aloexpert/header/header8.php:56
+msgid "Pound (GBP)"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:35
+msgid "Price: high to low"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/loop/orderby.php:35
+msgid "Price: low to high"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:42
+msgid "Project Details"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:38
+msgid "Project description"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/woocommerce/global/quantity-input.php:32
+msgid "Quantity:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/woocommerce/content-product-horizontal.php:70
+#: aloexpert/woocommerce/content-product-sidebar.php:40
+#: aloexpert/woocommerce/content-product-thumbnail.php:46
+#: aloexpert/woocommerce/content-product-thumbnail6.php:46
+#: aloexpert/woocommerce/content-product-timer.php:43
+#: aloexpert/woocommerce/content-product-timer3.php:43
+#: aloexpert/woocommerce/content-product-timer4.php:43
+#: aloexpert/woocommerce/content-product.php:66
+msgid "Quick View"
+msgstr ""
+
+#. Text in function
+#: aloexpert/templates/testimonial.php:71
+msgid "Rated %s out of 5"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:143
+msgid "Rating"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/content-portfolio.php:83
+#: aloexpert/content.php:92
+msgid "Read more"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-related.php:56
+msgid "Related Project"
+msgstr ""
+
+#. Text in function
+#: aloexpert/comments.php:77
+msgid "Reply"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Right Sidebar Details"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Right Sidebar Portfolio"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Right Sidebar Post"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Right Sidebar Shop"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "Search results for"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:121
+#: aloexpert/header/header2.php:109
+#: aloexpert/header/header3.php:110
+#: aloexpert/header/header4.php:123
+#: aloexpert/header/header5.php:123
+#: aloexpert/header/header6.php:103
+#: aloexpert/header/header7.php:100
+#: aloexpert/header/header8.php:121
+msgid "Sign in"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:45
+#: aloexpert/newsletter.php:23
+msgid "Sign up for our newsletter"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:43
+msgid "Skill needed:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:144
+msgid "Star(s)"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:75
+#: aloexpert/header/header3.php:75
+#: aloexpert/header/header4.php:88
+#: aloexpert/header/header5.php:88
+#: aloexpert/header/header6.php:61
+#: aloexpert/header/header7.php:64
+#: aloexpert/header/header8.php:75
+msgid "Store Localtion"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:158
+#: aloexpert/content-testimonial.php:159
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:49
+#: aloexpert/newsletter.php:26
+msgid "Subscribe"
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:47
+msgid "Subscribing to newsletter indicates your consent to our Privacy Policy"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:153
+#: aloexpert/content-testimonial.php:155
+msgid "Text"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/sidebar.php:1
+msgid "This is sidebar, you have to add some widgets"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio-single.php:43
+msgid "URL:"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/post-like.php:1
+msgid "Unlike"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-portfolio.php:62
+msgid "Viewed: "
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:135
+#: aloexpert/header/header1.php:139
+#: aloexpert/header/header2.php:122
+#: aloexpert/header/header2.php:126
+#: aloexpert/header/header3.php:123
+#: aloexpert/header/header3.php:127
+#: aloexpert/header/header4.php:136
+#: aloexpert/header/header4.php:140
+#: aloexpert/header/header5.php:136
+#: aloexpert/header/header5.php:140
+#: aloexpert/header/header6.php:116
+#: aloexpert/header/header6.php:120
+#: aloexpert/header/header7.php:113
+#: aloexpert/header/header7.php:117
+#: aloexpert/header/header8.php:135
+#: aloexpert/header/header8.php:139
+msgid "Wishlist"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/inc/post-like.php:364
+msgid "You Like:"
+msgstr ""
+
+#. Text in echo
+#: aloexpert/inc/post-like.php:390
+msgid "You do not like anything yet."
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:128
+#: aloexpert/header/header2.php:115
+#: aloexpert/header/header3.php:116
+#: aloexpert/header/header4.php:129
+#: aloexpert/header/header5.php:129
+#: aloexpert/header/header6.php:109
+#: aloexpert/header/header7.php:106
+#: aloexpert/header/header8.php:128
+msgid "Your Account"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:156
+#: aloexpert/header/header2.php:143
+#: aloexpert/header/header3.php:144
+#: aloexpert/header/header4.php:157
+#: aloexpert/header/header5.php:157
+#: aloexpert/header/header6.php:137
+#: aloexpert/header/header7.php:134
+#: aloexpert/header/header8.php:156
+msgid "Your Cart"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:129
+#: aloexpert/header/header2.php:116
+#: aloexpert/header/header3.php:117
+#: aloexpert/header/header4.php:130
+#: aloexpert/header/header5.php:130
+#: aloexpert/header/header6.php:110
+#: aloexpert/header/header7.php:107
+#: aloexpert/header/header8.php:129
+msgid "Your Order"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:130
+#: aloexpert/header/header2.php:117
+#: aloexpert/header/header3.php:118
+#: aloexpert/header/header4.php:131
+#: aloexpert/header/header5.php:131
+#: aloexpert/header/header6.php:111
+#: aloexpert/header/header7.php:108
+#: aloexpert/header/header8.php:130
+msgid "Your Wishlist"
+msgstr ""
+
+#. Text in function
+#: aloexpert/comments.php:82
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: aloexpert/newsletter-popup.php:45
+#: aloexpert/newsletter.php:23
+msgid "Your email"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:119
+msgid "Your review"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:18
+msgid "Your review has been added!"
+msgstr ""
+
+#. Text in function
+#: aloexpert/content-testimonial.php:135
+msgid "Your website"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header2.php:40
+msgid "header-offer-close"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header2.php:36
+#: aloexpert/header/header2.php:100
+#: aloexpert/header/header3.php:50
+#: aloexpert/header/header7.php:39
+msgid "hidden"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header1.php:145
+#: aloexpert/header/header1.php:160
+#: aloexpert/header/header2.php:132
+#: aloexpert/header/header2.php:147
+#: aloexpert/header/header3.php:133
+#: aloexpert/header/header3.php:148
+#: aloexpert/header/header4.php:146
+#: aloexpert/header/header4.php:161
+#: aloexpert/header/header5.php:146
+#: aloexpert/header/header5.php:161
+#: aloexpert/header/header6.php:126
+#: aloexpert/header/header6.php:141
+#: aloexpert/header/header7.php:123
+#: aloexpert/header/header7.php:138
+#: aloexpert/header/header8.php:145
+#: aloexpert/header/header8.php:160
+msgid "item(s)"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "left sidebar"
+msgstr ""
+
+#. Text in function
+#: aloexpert/header/header2.php:35
+msgid "overlay"
+msgstr ""
+
+#. Text in function
+#: aloexpert/inc/magiccart-functions.php:1
+msgid "right sidebar"
+msgstr ""

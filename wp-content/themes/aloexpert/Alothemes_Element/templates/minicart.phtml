@@ -1,0 +1,46 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2018-06-21 17:34:24
+ * @@Modify Date: 2018-06-21 17:54:34
+ * @@Function:
+ */
+?>
+
+<div class="content-cart">
+	<div class="cart-area cart-toggler">
+		<div class="block-minicart">
+			<div class="toggle-tab outside-close">
+				<div class="icon-cart">
+					<span class="cart-items">
+						<span class="your-cart"><?php echo __('Your Cart', 'aloexpert'); ?></span>
+						<span class="cart-quantity text">
+							<?php echo class_exists('WC') ? WC()->cart->get_cart_contents_count() : 0 ?>
+						</span>
+						<span class="cart-text text"><?php echo  __('item(s)', 'aloexpert') ?></span>
+					</span>
+					<span class="fa fa-shopping-basket shopping-basket icons"></span>
+				</div>
+				<div class="total-price">
+					<p><span class="text-account text-bold"><?php echo __('Cart', 'aloexpert')?>:</span></p>
+					<p class="cart-total"><span class="text-account text-normal"><span class="price"><?php echo class_exists('WC') ?  WC()->cart->get_cart_total() : '$0.00'; ?></span></span></p>
+				</div>
+			</div><!-- end toggle-tab -->
+			<div class="cart-drop expert-submenu toggle-content">
+				<div class="minicart-wrapper">
+					<div class=" widget_shopping_cart_content ">
+						<?php echo function_exists('woocommerce_mini_cart') ? woocommerce_mini_cart() : '' ?>
+					</div>
+				  	<div class="caption-cart">
+						<p class="caption-one"><span><?php echo __('$99', 'aloexpert')?></span> <?php echo __('Capped Delivery', 'aloexpert')?></p>
+						<p class="caption-two"><?php echo __('Fill your cart & pay no more than $99 dellivery', 'aloexpert')?></p>
+				  	</div>
+				</div>
+			</div>
+		</div><!-- end block-minicart -->
+	</div>
+</div><!-- end content-cart -->

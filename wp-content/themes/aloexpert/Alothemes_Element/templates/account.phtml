@@ -1,0 +1,45 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2018-06-21 17:34:24
+ * @@Modify Date: 2018-06-21 17:40:45
+ * @@Function:
+ */
+?>
+
+<div class="content-account">
+	<div class="account-icon">
+		<a href="<?php echo esc_url( get_permalink( get_option('woocommerce_myaccount_page_id') ) ) ?>">
+			<span class="fa fa-user icons"><span class="hidden">hidden</span></span>
+			<div class="text-account-area">
+				<span class="text-account text-bold block"><?php echo __('Account', 'aloexpert') ?></span>
+				<?php if (is_user_logged_in()){  $current_user = wp_get_current_user(); ?>
+					<span class="text-account text-normal"><?php echo __('Hello!', 'aloexpert') ?> <?php echo $current_user->display_name ?></span>
+				<?php } else { ?>
+					<span class="text-account text-normal"><?php echo __('Hello! Sign in', 'aloexpert') ?></span>
+				<?php } ?>
+			</div>
+			</a>
+	</div>
+	<div class="account-dropdown expert-submenu">
+		<div class="account-sign">
+			<?php if (is_user_logged_in()){ ?>
+				<div class="logout customer-log"><a href="<?php echo esc_url( wp_logout_url() ) ?>"><?php echo __('Log Out', 'aloexpert') ?></a></div>
+			<?php } else { ?>
+				<div class="logout customer-log"><a href="<?php echo esc_url( get_permalink( get_option('woocommerce_myaccount_page_id') ) ) ?>"><?php echo __('Sign in', 'aloexpert') ?></a></div>
+				<div class="top-link">
+					<a href="<?php echo esc_url( wp_registration_url() ) ?>"><?php echo __('New customer! Start here.', 'aloexpert') ?></a>
+				</div>
+			<?php } ?>
+		</div>
+		<ul class="info-account">
+			<li><a href="<?php echo esc_url( get_permalink( get_option('woocommerce_myaccount_page_id') ) ) ?>"><?php echo __('Your Account', 'aloexpert')?></a></li>
+			<li><a href="<?php echo esc_url( get_permalink( get_option('woocommerce_myaccount_page_id') ) ) ?>orders/"><?php echo __('Your Order', 'aloexpert')?></a></li>
+			<li><a href="<?php echo esc_url( site_url('wishlist') ) ?>"><?php echo __('Your Wishlist', 'aloexpert')?></a></li>
+		</ul>
+	</div>
+</div>

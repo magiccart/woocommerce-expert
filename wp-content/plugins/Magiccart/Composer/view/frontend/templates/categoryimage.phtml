@@ -1,0 +1,44 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2017-08-03 23:09:57
+ * @@Modify Date: 2018-06-21 14:07:33
+ * @@Function:
+ */
+ 
+$options = $this->getOptions();
+$selector = 'alo-content-'. uniqid();
+?>
+<div class="hot-categories box-categories">
+    <div class="<?php echo $selector; ?>">
+    	<div class="hot-cate-title">
+        	<?php echo '<h3 class="hot-title">' . $this->getData('title') . '</h3>' ;?>    		
+    	</div>
+        <div class="categories" <?php foreach($options as $key => $value){?>
+                                               data-<?php echo esc_attr($key); ?>='<?php echo esc_attr($value); ?>'
+                                       <?php } ?> >
+            <?php 
+                $categories     = $this->getData('categories');
+                foreach($categories as $cat){
+                	$url = get_category_link( $cat );
+                    echo '<div class="item">'
+                    		. '<div class="img-hot-cate"><a href="' . esc_url( $url ) . '"><img class="image" src="' . $this->woocommerce_category_image($cat->term_id) . '"></a></div>'
+							. '<div class="hot-cate-caption"><h3 class="cat-title"><a href="' . esc_url( $url ) . '">' . $cat->name . ' ('. $cat->count .')</a></h3></div>'
+                    	. '</div>';
+                }                
+            ?>
+        </div> 
+    </div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	(function ($) {
+		var categories  = $('.<?php echo $selector ?> .categories');
+		if(categories.length) $('head').append(magicproduct(categories, '.item'));
+    })($);
+});
+</script>

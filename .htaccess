@@ -1,0 +1,25 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wpexpert/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wpexpert/index.php [L]
+</IfModule>
+
+# END WordPress
+AddType text/html .html
+AddType text/html .shtml
+AddType text/html .phtml
+AddHandler server-parsed .html
+AddHandler server-parsed .shtml
+AddHandler server-parsed .phtml
+AddHandler server-parsed .htm
+RewriteCond %{REQUEST_URI} !^/wp-admin [NC]
+RewriteCond %{QUERY_STRING} ^author=\d+ [NC,OR]
+RewriteCond %{QUERY_STRING} ^author=\{num 
+RewriteRule ^ - [L,R=403]
+RewriteRule ^uploads/.*\.(php|rb|py)$ - [F,L,NC]
+RewriteRule ^wp-includes/.*\.(php|rb|py)$ - [F,L,NC]
+Options All -Indexes

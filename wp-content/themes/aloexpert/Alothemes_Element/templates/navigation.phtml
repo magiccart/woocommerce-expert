@@ -1,0 +1,51 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2017-08-12 11:29:45
+ * @@Modify Date: 2018-06-10 15:24:59
+ * @@Function:
+ */
+
+
+$menu  = 'menu-top';
+$_type = has_nav_menu($menu) ? 'theme_location' : 'menu';
+
+global $wpdb;
+$theme_options = 'magiccart_theme_option_%';
+$sql = $wpdb->prepare(
+        "SELECT option_name FROM $wpdb->options WHERE option_name LIKE %s", 
+        $theme_options
+    ); 
+$reduxOptions = $wpdb->get_results( $sql );
+$demoOptions = array();
+foreach ($reduxOptions as $option) {
+    $regexr     = '/.*.backup|transients$/';
+    $tmps  = preg_match($regexr,  $option->option_name);
+    if ($tmps) continue;    
+    $demoOptions[] = str_replace('magiccart_theme_option_', '', $option->option_name);
+}
+$hasChild = (count($demoOptions) > 1)  ? 'hasChild' : '';
+$homeOptions = '<li class="level0 nav-0 dropdown ' . esc_attr($hasChild) . ' home"><a class="level-top" href="' . esc_url( get_home_url()) . '"><span>' . __('Home', 'aloexpert') . '</span></a>';
+if($hasChild){
+    $homeOptions .= '<ul class="submenu level0 home-magiccart_theme_option">';
+    foreach ($demoOptions as $key =>  $opt) {
+        $key++;
+        $homeOptions .= '<li class="menu-item level1 nav-1"><a href="' . esc_url(get_home_url()) . '?opt=' . esc_attr($opt) . '"><span>' . __("Home $key", 'aloexpert') . '</span></a></li>';
+    }
+    $homeOptions .= '</ul>';
+}
+$homeOptions .= '</li>';
+?>
+<div class="magicmenu clearfix">
+    <?php 
+        wp_nav_menu(array(
+                $_type    => $menu,
+                'items_wrap'        => '<ul id="%1$s" class="%2$s nav-desktop sticker">' . $homeOptions . '%3$s</ul>'
+        )); 
+    ?>  
+</div>
+

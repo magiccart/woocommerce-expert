@@ -1,0 +1,100 @@
+<?php
+    //$lazy = $this->get_options('lazy-load');
+    $options            = $this->getData();
+    $args['cart']       = $options['cart'];
+    $args['compare']    = $options['compare'];
+    $args['wishlist']   = $options['wishlist'];
+    $args['review']     = $options['review'];
+    $args['quickview']  = 1;
+    $args['sec']        = 0;
+    $optionsCfg  = magiccart_options();
+    $configLazy  = $optionsCfg['lazy-load'];
+    $hoverImage = isset($optionsCfg['hover-image']) ? $optionsCfg['hover-image'] : 0;
+    $typeView = '';
+    if(is_shop()){
+        $typeView  = $optionsCfg['product_shop_default_view'];
+    }else{
+        $typeView  = $optionsCfg['product_category_default_view'];
+    }
+
+?>
+<div class="mage-magictabs mc-<?php echo sanitize_html_class($key);?>">
+    <div class="products products-grid">
+        <?php 
+        $args['sec']        = 0;
+        if($collection->have_posts() ){
+            echo '<ol class="products items" >';
+            while ( $collection->have_posts() ) : $collection->the_post();
+                //$this->wc_get_template( 'content-product.php', $args );
+                $args['sec'] += 50;
+                global $post, $product;
+                if ( empty( $product ) || ! $product->is_visible() ) {
+                    return;
+                }
+        ?>
+                <li <?php post_class() ?> >
+                    <div class="inner-wrap per-product product clearfix wow fadeInUp animated" data-wow-duration="0.5s" data-wow="fadeInUp" data-wow-delay="<?php echo isset($args['sec']) ? $args['sec'] : 0 ?>ms" >
+                        <div class="product-img">
+                            <?php
+                                if( (isset($args['quickview']) && $args['quickview']) || (!is_front_page() && !isset($args['quickview']) && $typeView != 'list-view' ) ){
+                                    if(defined( 'YITH_WCQV' )){
+                                    echo '<div class="quickview"><a href="#" class="button yith-wcqv-button"  title="' . esc_attr__('Quick View', 'aloexpert') . '" data-product_id="'. esc_attr($post->ID) .'"><i class="fa fa-search-plus icon-quickview"></i>' . __('Quick View', 'aloexpert') . '</a></div>';
+                                    }
+                                }                                
+                            ?> 
+                        <div class="image-overlay"></div>
+                        <div class="main-img">
+                            <a href="<?php echo esc_url( get_the_permalink() ) ?>">
+                                <?php
+                                    echo get_the_post_thumbnail($post);
+                                    // echo wc_placeholder_img( $size = 'woocommerce_thumbnail' );
+                                    // echo $imge_lazy = wc_placeholder_img_src();
+                                ?>
+                            </a>
+                        </div>
+                        <?php 
+                            if($hoverImage){
+                                $attachment_ids = $product->get_gallery_image_ids();
+                                if ( $attachment_ids ) {
+                                    echo wc_get_gallery_image_html($attachment_ids[0], true);
+                                } 
+                            }
+                        ?>
+                        </div>
+                        <div class="info">
+                            <div class="information clearfix">
+                                <div class="info_main">
+                                    <?php 
+                                        wc_get_template( 'loop/price.php' );
+                                        if( !isset($args['review']) || isset($args['review']) && $args['review'] ){
+                                            wc_get_template( 'loop/rating.php' );
+                                        }
+                                    ?>
+                                    <?php
+                                        global $alothemes;
+                                        $label = $alothemes->create_object('Alothemes\Element\Block\Label');
+                                        if ( $label ) {
+                                            echo $label->toHtml();
+                                        }
+                                    ?>
+                                    <p class="stock in-stock"><?php  echo wc_format_stock_for_display( $product ); ?></p>
+                                    <?php
+                                        echo '<h3 class="product-name"><a href="' . esc_attr( get_the_permalink() ) . '">' . get_the_title() . '</a></h3>';
+                                    ?>
+                                </div>
+                            </div>
+                            <div class="short-description">
+                                <?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
+                            </div>
+                        </div>
+                    </div>   
+                </li>
+            <?php
+                endwhile; 
+                echo '</ol>';
+            }else{
+                echo '<p class="woocommerce-info">'. __('No products were found matching your selection.', 'aloexpert') .'</p>';
+            }
+		?>
+	</div>
+</div>

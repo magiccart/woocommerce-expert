@@ -1,0 +1,45 @@
+<?php 
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2018-07-31 22:43:12
+ * @@Modify Date: 2018-07-31 23:09:12
+ * @@Function:
+ */
+?>
+
+<?php
+	global $product, $post;
+	if(!$product) return;
+    $sale = ''; 
+    if ( $product->is_on_sale()) : 
+        $sale_price = get_post_meta( $product->get_id(), '_price', true);
+        $regular_price = get_post_meta( $product->get_id(), '_regular_price', true);
+        $save = ($sale_price && $regular_price) ? ' ' .ceil(( ($regular_price - $sale_price) / $regular_price ) * 100) .'%' : '';
+        if($save) {
+            $sale = __( 'Save', 'woocommerce' ) . $save;
+        }else {
+            $sale = __( 'Sale', 'woocommerce' );
+        }
+
+    endif;
+    $new_dates_from = get_post_meta( $product->get_id(), '_new_dates_from', true );
+    $new_dates_to = get_post_meta( $product->get_id(), '_new_dates_to', true );
+    $new = $this->_nowIsBetween($new_dates_from, $new_dates_to) ? __( 'New', 'woocommerce' ) : '';
+if(!$sale && !$new) return;
+?>
+<div class="badge">
+	<?php if( $sale ) : ?>
+    <div class="badge-inner sale-label">
+         <?php echo apply_filters( 'woocommerce_sale_flash', '<div class="inner-text">' . $sale . '</div>', $post, $product ); ?>
+    </div>
+    <?php endif; ?>
+    <?php if( $new ) : ?>
+    <div class="badge-inner new-label">
+         <?php echo apply_filters( 'woocommerce_sale_flash', '<div class="inner-text">' . $new . '</div>', $post, $product ); ?>
+    </div>
+    <?php endif; ?>
+</div>

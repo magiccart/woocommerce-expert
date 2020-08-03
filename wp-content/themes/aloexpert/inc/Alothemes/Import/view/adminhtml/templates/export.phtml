@@ -1,0 +1,89 @@
+<div class='wrap'>
+    <h1><?php echo __('Magiccart Export', 'aloexpert') ?></h1>
+    <?php echo $this->getData('message'); ?>
+    <form method="post" action='' enctype="multipart/form-data">
+         <table class="form-table">
+            <tbody>
+                <tr style="display: none;">
+                    <th><label><?php echo __('Select', 'aloexpert') ?> <span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <input name="action" checked type="text" value="<?php echo isset($_GET['action']) ?  esc_attr($_GET['action']) : '' ?>" />
+					</td>
+                </tr>
+<!--                 <tr>
+                    <th><label><?php echo __('Name', 'aloexpert') ?> <span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <input name="action" checked type="text" value="" />
+                    </td>
+                </tr> -->
+                <?php 
+                    $wp_option = $this->getData('wp_option');
+                    if($wp_option) :
+                ?>
+                <tr>
+                    <th><label><?php echo __('Data', 'aloexpert') ?><span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <?php foreach ($wp_option as $opt) {
+                            echo '<input name="wp_option[]" checked type="checkbox" value="' . esc_attr($opt) . '" />' . $opt . '<br/>';
+                        }
+                        ?>
+					</td>
+                </tr>
+                <?php 
+                    endif;
+                ?>
+                <tr>
+                    <th><label><?php echo __('Redux', 'aloexpert') ?><span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <select name="redux">
+                            <?php
+                                $reduxOptions = $this->getData('redux');
+                                foreach ($reduxOptions as  $option) {
+                                    echo '<option value="'. esc_attr($option) .'"> '. $option .' </option>';
+                                }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th><label><?php echo __('Header', 'aloexpert') ?><span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <select name="header">
+                            <?php
+                                foreach ($this->getData('header') as  $id => $post_title) {
+                                    echo '<option value="'. esc_attr($id) .'"> '. $post_title .' </option>';
+                                }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label><?php echo __('Pages', 'aloexpert') ?><span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <select name="pages[]" multiple>
+                            <?php
+                                foreach (get_pages() as  $page) {
+                                    echo '<option value="'. esc_attr($page->ID) .'"> '. $page->post_title .' </option>';
+                                }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label><?php echo __('Footer', 'aloexpert') ?><span style="color:red;">*</span> : </label></th>
+                    <td>
+                        <select name="footer">
+                            <?php
+                                foreach ($this->getData('footer') as  $id => $post_title) {
+                                    echo '<option value="'. esc_attr($id) .'"> '. $post_title .' </option>';
+                                }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+       </table>
+       <input type="submit" name="submit" id="mp-btn-change" class="button button-primary" value="<?php echo esc_attr__('Export', 'aloexpert') ?>">
+    </form>
+</div>
