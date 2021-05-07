@@ -37,7 +37,7 @@
         "squirejs": "~0.2.1",
         "strip-json-comments": "~2.0.1",
         "time-grunt": "~1.0.0",
-        "underscore": "~1.7.0"
+        "underscore": "~1.12.1"
     },
     "dependencies": {
         "tiny-lr": "^1.1.1"
