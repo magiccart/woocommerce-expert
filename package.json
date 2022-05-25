@@ -10,7 +10,7 @@
     "homepage": "http://alothemes.com/",
     "devDependencies": {
         "glob": "~7.1.1",
-        "grunt": "~1.0.1",
+        "grunt": "~1.5.3",
         "grunt-autoprefixer": "~3.0.4",
         "grunt-banner": "~0.6.0",
         "grunt-continue": "~0.1.0",
